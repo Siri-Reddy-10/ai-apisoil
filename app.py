@@ -3,7 +3,7 @@ from flask import Flask,request
 
 api=Flask(__name__)
 
-with open('api.pkl','rb') as f:
+with open('ai.pkl','rb') as f:
     ai=pickle.load(f)
 
 @api.route('/')
