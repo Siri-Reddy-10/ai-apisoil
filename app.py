@@ -14,7 +14,7 @@ def home():
 def predict():
     N=request.args.get('N')
     N=float(N)
-    P=request.args.get('p')
+    P=request.args.get('P')
     P=float(P)
     K=request.args.get('K')
     K=float(K)
