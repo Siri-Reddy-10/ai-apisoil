@@ -26,7 +26,7 @@ def predict():
     PH=float(PH)
     R=request.args.get('R')
     R=float(R)
-    data=[[N,P,K,T,H,Ph,R]]
+    data=[[N,P,K,T,H,PH,R]]
     response=ai.predict(data)[0]
     return response
 
