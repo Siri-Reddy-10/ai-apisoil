@@ -22,8 +22,8 @@ def predict():
     T=float(T)
     H=request.args.get('H')
     H=float(H)
-    Ph=request.args.get('Ph')
-    Ph=float(Ph)
+    🇵🇭=request.args.get('PH')
+    PH=float(PH)
     R=request.args.get('R')
     R=float(R)
     data=[[N,P,K,T,H,Ph,R]]
